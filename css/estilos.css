@@ -1,0 +1,116 @@
+*{
+    background-color: aquamarine;
+    margin:10px;
+    padding: 5px;
+}
+
+body{
+  background-color: turquoise;  
+  border: 2px solid greenyellow;
+}
+
+h1{
+    background-color: bisque;
+}
+
+.titulo{
+    text-align: center;
+    border: 2px solid greenyellow;
+    background-color: bisque;
+}
+
+
+section.navbar{
+    display:inline;
+    height: 20px;
+    width: 20px;
+    margin:200px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    
+     }
+
+     nav.navbar{
+        border:2px solid greenyellow ;  
+     }
+
+
+
+
+.parrafos{
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid greenyellow ;
+    
+}
+
+.parrafo1{
+
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:40px;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    box-sizing: border-box;
+}
+
+.parrafo2{
+
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    box-sizing: border-box;
+
+}
+    
+      
+
+.icono{
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+ 
+    
+}
+
+.icono:hover{
+ background-color: blueviolet;
+ cursor: pointer;
+}
+
+
+.imagen1{
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    border: 5px solid greenyellow;
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 40px 100px;
+}
+
+.legal{
+    text-align: center;
+    font-weight: bold;
+    color:brown;
+}
